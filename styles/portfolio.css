@@ -1,235 +1,234 @@
 /* Shared Style */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .btn-primary {
-    border-radius: 5px;
-    background: #F15B22;
-    border: 0;
-    padding: 20px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  border: 0;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .btn-secondary {
-    border-radius: 5px;
-    background: #FFF;
-    border: 0;
-    padding: 20px 36px;
-    color: #F15B22;
-    font-size: 20px;
-    font-weight: 600;
-    display: block;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  padding: 20px 36px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
 }
 
 .section-title {
-    color: var(--Dark-01, #151414);
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
 
 .section-description {
-    color: var(--Dark-02, #444343);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 16px;
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
 }
 
 /* Header Stye */
 
 .header {
-    background-image: url('../images/banner/banner1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 220px 250px;
-    display: flex;
-    justify-content: end;
-    background-position: center;
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 250px;
+  display: flex;
+  justify-content: end;
+  background-position: center;
 }
 
 .banner {
-    text-align: right;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+  text-align: right;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .banner-title {
-    color: var(--Dark-01, #151414);
-    font-size: 65px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    width: 560px;
+  color: var(--Dark-01, #151414);
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  width: 560px;
 }
 
 .banner-description {
-    color: var(--Dark-02, #444343);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    width: 500px;
-    margin-bottom: 32px;
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 500px;
+  margin-bottom: 32px;
 }
 
 /* main section styles */
 
 main {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 main section {
-    margin-top: 140px;
+  margin-top: 140px;
 }
-
 
 /* Failure Section */
 
 .failures {
-    display: flex;
-    align-items: center;
-    gap: 90px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
 }
 
 .failure-container {
-    width: 420px;
-    margin-top: 160px;
+  width: 420px;
+  margin-top: 160px;
 }
 
 .failure-item-container {
-    list-style: none;
+  list-style: none;
 }
 
 .failure-item {
-    color: var(--Dark-02, #444343);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 8px;
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 8px;
 }
 
 .failure-item i {
-    color: #16D887;
-    margin-right: 10px;
+  color: #16d887;
+  margin-right: 10px;
 }
 
 .plan-container {
-    display: flex;
-    gap: 80px;
-    justify-content: space-around;
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
 }
 
 .my-plan-section-title {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .plan {
-    text-align: center;
+  text-align: center;
 }
 
 .plan img {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .plan-title {
-    color: var(--Dark-01, #151414);
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 16px;
+  color: var(--Dark-01, #151414);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .plan-description {
-    color: var(--Dark-03, #737272);
-    font-size: 25px;
-    font-weight: 500;
+  color: var(--Dark-03, #737272);
+  font-size: 25px;
+  font-weight: 500;
 }
 
 /* call now section */
 
 .call-now {
-    padding: 60px;
-    background-image: url('../images/gradient2.png'), url('../images/watch.png');
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 60px;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .call-now-container {
-    width: 450px;
+  width: 450px;
 }
 
 .call-now-title {
-    color: #fff;
+  color: #fff;
 }
 
 /* Footer Section */
 
 footer {
-    padding: 130px 250px;
-    background: var(--Dark-01, #151414);
-    color: white;
-    margin-top: 130px;
+  padding: 130px 250px;
+  background: var(--Dark-01, #151414);
+  color: white;
+  margin-top: 130px;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-title {
-    color: white;
-    margin-bottom: 16px;
+  color: white;
+  margin-bottom: 16px;
 }
 
 .footer-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    width: 485px;
-    margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 485px;
+  margin-bottom: 32px;
 }
 
 .contact-details {
-    display: inline-block;
-    margin-top: 24px;
+  display: inline-block;
+  margin-top: 24px;
 }
 
 .social img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .footer-subtitle {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .subscribe input[type="email"] {
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    border: 1px solid #FFF;
-    background-color: unset;
-    color: white;
-    width: 325px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: unset;
+  color: white;
+  width: 325px;
 }
 
-.subscribe input[type="email"]::placeholder{
-    color: white;
+.subscribe input[type="email"]::placeholder {
+  color: white;
 }
