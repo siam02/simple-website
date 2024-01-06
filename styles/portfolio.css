@@ -162,6 +162,8 @@ main section {
     padding: 60px;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .call-now-container {
