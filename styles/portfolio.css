@@ -70,6 +70,7 @@ body {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 24px;
+    width: 560px;
 }
 
 .banner-description {
@@ -84,7 +85,7 @@ body {
 /* main section styles */
 
 main {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -174,12 +175,17 @@ main section {
 /* Footer Section */
 
 footer {
-    margin-top: 130px;
-    padding: 130px 230px;
+    padding: 130px 250px;
     background: var(--Dark-01, #151414);
     color: white;
+    margin-top: 130px;
+}
+
+.footer-container{
     display: flex;
     justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer-title {
@@ -219,6 +225,7 @@ footer {
     border: 1px solid #FFF;
     background-color: unset;
     color: white;
+    width: 325px;
 }
 
 .subscribe input[type="email"]::placeholder{
